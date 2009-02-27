@@ -1,0 +1,4 @@
+host: 192.168.1.111
+port: 12345
+username: admin
+password: admin
