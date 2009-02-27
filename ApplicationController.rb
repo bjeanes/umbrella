@@ -8,6 +8,11 @@
 
 class ApplicationController
   attr_accessor :label
+  attr_accessor :api
+  
+  def awakeFromNib
+  
+  end
   
   def application(sender, openFile: filename)
 	application(sender, openFiles: [filename])

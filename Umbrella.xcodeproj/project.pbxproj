@@ -11,6 +11,8 @@
 		4DE3BE140D8651D900ECA448 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE3BE130D8651D900ECA448 /* MacRuby.framework */; };
 		6C214BBC0F57A05B00300146 /* ApplicationController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C214BBB0F57A05B00300146 /* ApplicationController.rb */; };
 		6C214C4D0F5820C100300146 /* json in Resources */ = {isa = PBXBuildFile; fileRef = 6C214BF10F5820C100300146 /* json */; };
+		6C214C550F58270E00300146 /* config.yml in Resources */ = {isa = PBXBuildFile; fileRef = 6C214C540F58270E00300146 /* config.yml */; };
+		6C214C580F5827E300300146 /* Api.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C214C570F5827E300300146 /* Api.rb */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -29,6 +31,8 @@
 		4DE3BE130D8651D900ECA448 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = /Library/Frameworks/MacRuby.framework; sourceTree = "<absolute>"; };
 		6C214BBB0F57A05B00300146 /* ApplicationController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ApplicationController.rb; sourceTree = "<group>"; };
 		6C214BF10F5820C100300146 /* json */ = {isa = PBXFileReference; lastKnownFileType = folder; path = json; sourceTree = "<group>"; };
+		6C214C540F58270E00300146 /* config.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.yml; sourceTree = "<group>"; };
+		6C214C570F5827E300300146 /* Api.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Api.rb; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Umbrella.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Umbrella.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -50,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				6C214BBB0F57A05B00300146 /* ApplicationController.rb */,
+				6C214C570F5827E300300146 /* Api.rb */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -99,6 +104,7 @@
 				6C214BF10F5820C100300146 /* json */,
 				4DE339F60D74FCDD00ADB6EE /* rb_main.rb */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
+				6C214C540F58270E00300146 /* config.yml */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -170,6 +176,8 @@
 				4DE339F70D74FCDD00ADB6EE /* rb_main.rb in Resources */,
 				6C214BBC0F57A05B00300146 /* ApplicationController.rb in Resources */,
 				6C214C4D0F5820C100300146 /* json in Resources */,
+				6C214C550F58270E00300146 /* config.yml in Resources */,
+				6C214C580F5827E300300146 /* Api.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

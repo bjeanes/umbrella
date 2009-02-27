@@ -11,11 +11,11 @@
 framework 'Cocoa'
 
 # Loading all the Ruby project files.
-dir_path = NSBundle.mainBundle.resourcePath.fileSystemRepresentation
+$resourcePath = NSBundle.mainBundle.resourcePath.fileSystemRepresentation
 
-require File.join(dir_path, 'json', 'json')
+require File.join($resourcePath, 'json', 'json')
 
-Dir.entries(dir_path).each do |path|
+Dir.entries($resourcePath).each do |path|
   if path != File.basename(__FILE__) and path[-3..-1] == '.rb'
     require(path)
   end
