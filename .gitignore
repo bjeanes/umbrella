@@ -3,7 +3,7 @@ build/*
 *.pbxuser
 *.mode1v3
 *.perspectivev3
-
+config.yml
 # old skool
 .svn
 
