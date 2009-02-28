@@ -24,6 +24,7 @@ class ApplicationController
 		# send to utorrent API
 		
 		label.stringValue = "Received file #{filename}"
+		api.upload_torrent(filename)
 	end
   end
 end
